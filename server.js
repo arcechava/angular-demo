@@ -20,7 +20,6 @@ const forceSSL = function() {
 // to use the forceSSL
 // middleware
 app.use(forceSSL());
-
 // ...
 // For all GET requests, send back index.html
 // so that PathLocationStrategy can be used
